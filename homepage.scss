@@ -1,0 +1,60 @@
+h1 {
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+    padding-top: 30px;
+    font-style: bold;
+}
+
+p {
+    font-style: italic;
+    text-align: center;
+}
+
+.attraction-title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.home-text {
+    font-style: italic;
+    font-style: bold;
+    text-align: center;
+}
+
+.bd-example {
+    max-width: 55%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+}
+
+.blackword {
+    color: black;
+    
+}
+
+.card-text {
+    font-style: italic;
+    text-align: center;
+}
+
+.card-group {
+    max-width: 60%;
+    // justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card-title {
+    text-align: center;
+}
