@@ -35,6 +35,10 @@ body {
           box-shadow: 5px 5px 5px 0px #c4c4c4;
 }
 
+.bg-booking {
+  background-image: url("../images/singapora.png") no-repeat fixed;
+}
+
 .bg-footer {
   background-color: #333333;
 }
