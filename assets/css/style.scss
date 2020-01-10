@@ -1,6 +1,8 @@
 $black : #333333;
 $green :#83a846;
 $white: #fff;
+$blue : #3498db;
+$white-line :#E9ECEF;
 
 /** Common Style **/
 body{
@@ -31,11 +33,11 @@ body{
 
 /********* Page Tour *******/
 .bg-tour{
-    background-image: url(https://media.tripcentral.ca//media/00_0L_AB_Vacations-Packages-to-Mexico-Caribbean.jpg);
+    background-color: $blue;
 }
 
 .list-tour{
-    border: 1px solid #E9ECEF;
+    border: 1px solid $white-line;
 }
 /********* End Page Tour ******/
 

@@ -30,7 +30,7 @@ body {
 /****** End Common Style ***********/
 /********* Page Tour *******/
 .bg-tour {
-  background-image: url(https://media.tripcentral.ca//media/00_0L_AB_Vacations-Packages-to-Mexico-Caribbean.jpg);
+  background-color: #3498db;
 }
 
 .list-tour {
