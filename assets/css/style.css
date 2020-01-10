@@ -35,6 +35,14 @@ body {
           box-shadow: 5px 5px 5px 0px #c4c4c4;
 }
 
+.bg-booking {
+  background-image: url(https://www.singaporeconvention.org/assets/media/images/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: center;
+}
+
 .bg-footer {
   background-color: #333333;
 }
