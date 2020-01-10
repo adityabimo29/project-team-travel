@@ -36,7 +36,11 @@ body {
 }
 
 .bg-booking {
-  background-image: url("../images/singapora.png") no-repeat fixed;
+  background-image: url(https://www.singaporeconvention.org/assets/media/images/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: center;
 }
 
 .bg-footer {
