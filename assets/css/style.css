@@ -1,48 +1,41 @@
+/** Common Style **/
 body {
   font-family: 'Raleway', sans-serif;
 }
 
-:root {
-  --jumbotron-padding-y: 3rem;
-}
-
 .jumbotron {
-  padding-top: var(--jumbotron-padding-y);
-  padding-bottom: var(--jumbotron-padding-y);
-  margin-bottom: 0;
-  background-color: #fff;
+  border-radius: 0;
 }
 
-@media (min-width: 768px) {
-  .jumbotron {
-    padding-top: calc(var(--jumbotron-padding-y) * 2);
-    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
-  }
-}
-
-.jumbotron p:last-child {
-  margin-bottom: 0;
-}
-
-.jumbotron-heading {
-  font-weight: 300;
-}
-
-.jumbotron .container {
-  max-width: 40rem;
-}
-
-footer {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-footer p {
-  margin-bottom: .25rem;
+.btn-wa {
+  background-color: #83a846;
+  padding: 10px;
+  border-radius: 0em;
+  color: #fff;
 }
 
 .box-shadow {
-  -webkit-box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
-          box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 5px 5px 5px 0px #c4c4c4;
+          box-shadow: 5px 5px 5px 0px #c4c4c4;
 }
+
+.bg-footer {
+  background-color: #333333;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+/****** End Common Style ***********/
+/********* Page Tour *******/
+.bg-tour {
+  background-image: url(https://media.tripcentral.ca//media/00_0L_AB_Vacations-Packages-to-Mexico-Caribbean.jpg);
+}
+
+.list-tour {
+  border: 1px solid #E9ECEF;
+}
+
+/********* End Page Tour ******/
 /*# sourceMappingURL=style.css.map */

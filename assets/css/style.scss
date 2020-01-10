@@ -1,42 +1,41 @@
+$black : #333333;
+$green :#83a846;
+$white: #fff;
+
+/** Common Style **/
 body{
     font-family: 'Raleway', sans-serif;
 }
-:root {
-    --jumbotron-padding-y: 3rem;
-  }
-  
-  .jumbotron {
-    padding-top: var(--jumbotron-padding-y);
-    padding-bottom: var(--jumbotron-padding-y);
-    margin-bottom: 0;
-    background-color: #fff;
-  }
-  @media (min-width: 768px) {
-    .jumbotron {
-      padding-top: calc(var(--jumbotron-padding-y) * 2);
-      padding-bottom: calc(var(--jumbotron-padding-y) * 2);
-    }
-  }
-  
-  .jumbotron p:last-child {
-    margin-bottom: 0;
-  }
-  
-  .jumbotron-heading {
-    font-weight: 300;
-  }
-  
-  .jumbotron .container {
-    max-width: 40rem;
-  }
-  
-  footer {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-  
-  footer p {
-    margin-bottom: .25rem;
-  }
-  
-  .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.jumbotron{
+    border-radius: 0;
+}
+
+.btn-wa {
+    background-color: $green;
+    padding: 10px ;
+    border-radius: 0em;
+    color:$white;
+}
+
+.box-shadow {
+    box-shadow: 5px 5px 5px 0px rgba(196,196,196,1);
+}
+
+.bg-footer{
+    background-color:$black;
+}
+
+.form-control{border-radius: 0;}
+/****** End Common Style ***********/
+
+/********* Page Tour *******/
+.bg-tour{
+    background-image: url(https://media.tripcentral.ca//media/00_0L_AB_Vacations-Packages-to-Mexico-Caribbean.jpg);
+}
+
+.list-tour{
+    border: 1px solid #E9ECEF;
+}
+/********* End Page Tour ******/
+
